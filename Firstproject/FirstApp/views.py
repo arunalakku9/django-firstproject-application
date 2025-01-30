@@ -173,4 +173,5 @@ def homepage(request):
         <h3>Plz try other URL or Links!!!</h3>
     </center>''';
     return HttpResponse(htmldata);
-
+def gitview(request):
+	return HttpResponse("<h1> aruna hi</h1>")
