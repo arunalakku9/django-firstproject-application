@@ -5,3 +5,5 @@ from django.http import HttpResponse;
 def f11(request): 
 	return HttpResponse("<h2>Hello, Good Morning User..!! Have a Nice day...</h2><hr/>");
 	
+def f22(request):
+	return httpresponse("hllo good morning
